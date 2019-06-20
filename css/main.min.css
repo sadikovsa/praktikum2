@@ -8066,11 +8066,11 @@ p, label, ul, ol, h1, h2, h3, h4, h5, h6 {
     .second-section-block:nth-child(2) .second-section-block-right {
       right: auto;
       left: 50px; }
-    .second-section-block:last-child .second-section-block-title {
+    .second-section-block:nth-child(3) .second-section-block-title {
       color: #89aa13; }
-      .second-section-block:last-child .second-section-block-title::before {
+      .second-section-block:nth-child(3) .second-section-block-title::before {
         border: 2px solid #89aa13; }
-    .second-section-block:last-child .second-section-block-text {
+    .second-section-block:nth-child(3) .second-section-block-text {
       border-left: 2px solid #dbeaa5; }
     .second-section-block-left {
       -webkit-border-radius: 14px;
@@ -8082,7 +8082,7 @@ p, label, ul, ol, h1, h2, h3, h4, h5, h6 {
       width: 884px; }
     .second-section-block-title {
       font-size: 21px;
-      font-weight: 500;
+      font-weight: bold;
       color: #264570;
       text-transform: uppercase;
       position: relative;
@@ -9707,6 +9707,8 @@ p, label, ul, ol, h1, h2, h3, h4, h5, h6 {
       left: auto; }
     .second-section-block:nth-child(2) .second-section-block-text {
       border: none; }
+    .second-section-block:nth-child(3) .second-section-block-text {
+      border: none; }
   .second-section-block-left {
     width: 100%;
     padding: 30px 15px 15px 15px;
@@ -10090,6 +10092,8 @@ p, label, ul, ol, h1, h2, h3, h4, h5, h6 {
       bottom: auto;
       left: auto; }
     .second-section-block:nth-child(2) .second-section-block-text {
+      border: none; }
+    .second-section-block:nth-child(3) .second-section-block-text {
       border: none; }
   .second-section-block-left {
     width: 100%;
