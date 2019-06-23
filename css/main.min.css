@@ -8982,6 +8982,20 @@ p, label, ul, ol, h1, h2, h3, h4, h5, h6 {
           -ms-flex-align: center;
               align-items: center;
       list-style: none; }
+      .footer-social-list a {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 5px; }
   .footer-contacts-form {
     display: -webkit-box;
     display: -webkit-flex;
